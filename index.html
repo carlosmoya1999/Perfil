@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Usuario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <img src="profile-image.jpg" alt="Imagen de perfil">
+            <h1>Nombre del Usuario</h1>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Sobre mí</h2>
+            <p>Breve descripción del usuario.</p>
+        </section>
+        <section id="interests">
+            <h2>Intereses</h2>
+            <ul>
+                <li>Interés 1</li>
+                <li>Interés 2</li>
+                <li>Interés 3</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nombre del Usuario. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
